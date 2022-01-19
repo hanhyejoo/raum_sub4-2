@@ -1,0 +1,19 @@
+*{margin:0; padding:0;}
+
+ul{list-style:none;}
+
+body{margin: 0px; padding: 0px;}
+
+.scroll-title{text-align: center; padding:0px 0;}
+
+.scroll-menu{text-align: center; padding: 0px 0px; width: 100%;}
+
+.scroll-content{height: 0px;}
+
+.scroll-fixed{z-index: 99; position: fixed; top: 0px; background-color: rgba(207, 235, 246, 0.9); left: 0; height: 67px;}
+
+.scroll-fixed> .center_nav> li> a:hover{color: #fff;}
+.scroll-fixed .bg li a:hover{color: #fff;}
+.scroll-fixed> .center_nav> .bg li a:hover{background-color: #fff;}
+.scroll-fixed .bg:hover{background-color: rgba(207, 235, 246, 0.9);}
+.scroll-fixed .bg{background-color: rgba(207, 235, 246, 0.9);}
